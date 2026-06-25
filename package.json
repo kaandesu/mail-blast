@@ -1,0 +1,18 @@
+{
+  "name": "tenkai-email-blast",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One-off Tenkai cold-outreach blast via Resend (postgresql / n8n GitHub stargazers).",
+  "scripts": {
+    "blast": "tsx blast.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
